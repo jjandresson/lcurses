@@ -1,13 +1,13 @@
 package = "lcurses"
 version = "git-1"
 description = {
-  detailed = "A library binding curses APIs.",
+  detailed = "lcurses is a C library for Lua that wraps the curses API.",
   homepage = "http://github.com/lcurses/lcurses/",
   license = "MIT/X11",
   summary = "Lua bindings for curses",
 }
 source = {
-  url = "git://github.com/luaposix/luaposix.git",
+  url = "git://github.com/lcurses/lcurses.git",
 }
 dependencies = {
   "lua >= 5.1, < 5.4",
